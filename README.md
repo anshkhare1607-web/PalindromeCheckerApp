@@ -1,16 +1,17 @@
-UC7: Deque-Based Optimized Palindrome Checker.
+UC6: Queue + Stack Based Palindrome Check
 
-Goal: Use Deque to compare front and rear elements.
+Goal: Demonstrate FIFO vs LIFO using Queue and Stack.
 
 Flow:
 
-Insert characters into deque
-Remove first & last
-Compare until empty
+Enqueue characters
+Push characters to stack
+Compare dequeue vs pop
 Key Concepts:
 
-Deque (Double-Ended Queue) – A data structure that allows insertion and deletion from both front and rear ends.
-Front and Rear Access – Enables direct comparison of first and last characters.
-Optimized Data Handling – Eliminates the need for separate reversal data structures.
-Data Structure: Deque
+Queue – A linear data structure that follows the First In First Out (FIFO) principle.
+Enqueue & Dequeue Operations – Used to insert and remove elements from the queue.
+Stack vs Queue – Demonstrates the behavioral difference between LIFO and FIFO structures.
+Logical Comparison – Matching dequeue (queue) output with pop (stack) output to validate palindrome logic.
+Data Structures: Queue, Stack
 
